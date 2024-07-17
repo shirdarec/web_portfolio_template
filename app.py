@@ -15,11 +15,11 @@ def web_portfolio():
     # Get Profile Image
     with open("pic.png", "rb") as img_file:
         img = "data:image/png;base64," + b64encode(img_file.read()).decode()
-    """
+
     # Reading Profile
     with open("Profile.pdf", "rb") as pdf_file:
        pdf_bytes = pdf_file.read()
-    """
+
 
     # st.write(f"""
     # <div style="display: flex; justify-content: center;">
