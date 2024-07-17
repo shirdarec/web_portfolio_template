@@ -100,7 +100,7 @@ def web_portfolio():
     st.write("##")
 
     # Download CV button
-    st.download_button(label="📄 Download my CV", data=pdf_bytes, file_name="Abhisheak_linkedin_cv.pdf", mime="application/pdf",)
+    st.download_button(label="📄 Download my CV", data=pdf_bytes, file_name="Your_name_cv.pdf", mime="application/pdf",)
     st.write("##")
     st.write(f"""<div class="subtitle" style="text-align: center;">🌟 Have A Wonderfull Day!!! 🌟</div>""", unsafe_allow_html=True)
 
