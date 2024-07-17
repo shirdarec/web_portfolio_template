@@ -85,13 +85,10 @@ def web_portfolio():
     st.subheader("About Me")
 
     st.markdown("""
-    - 🧑‍💻 I am a **Data Scientist and Gen AI developer** at [Digna](https://www.ibm.com/), 
-    where I am currently working on a healthcare project for [Elevance Healthcare](https://www.elevancehealth.com/).
-    - 🚀 Previously, I served as an Application Developer at [Digna AS](https://www.Digna.no/).
-    - ❤️ I am passionate about *Machine Learning/Deep Learning, MLOps, Data Science, Software Engineering, 
-    Computer Vision, Data Analytics, Data Engineering, Automation*, and more!
-    - 🤖 Additionally, I am a Senior Instructor at [upGrad](https://www.upgrad.com/), where I offer bootcamp sessions 
-    on topics such as Data Science, Machine Learning, Natural Language Processing, Automation, and more.
+    - 🧑‍💻🚀 I am a **Data Scientist and Gen AI developer** at [Digna AS](https://www.Digna.no/), 
+    where I am currently working on an AI platform to help simplify public information to newcomers to Norway.
+    - ❤️ I am passionate about *Machine Learning/Deep Learning, Artifical intelligence, Data Science, Software Engineering, 
+   Data Analytics, Automation*, and more!
     - 🏂 In my free time, I enjoy practising sports such as weight lifting and chalistenics.
     - 🪧 You can reach me at said@diga.no.
     - 🏠 Based in Norway.
