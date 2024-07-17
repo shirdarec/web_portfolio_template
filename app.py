@@ -15,10 +15,11 @@ def web_portfolio():
     # Get Profile Image
     with open("pic.png", "rb") as img_file:
         img = "data:image/png;base64," + b64encode(img_file.read()).decode()
-    
+    """
     # Reading Profile
     with open("Profile.pdf", "rb") as pdf_file:
        pdf_bytes = pdf_file.read()
+    """
 
     # st.write(f"""
     # <div style="display: flex; justify-content: center;">
@@ -57,7 +58,7 @@ def web_portfolio():
 # Set the title
     st.write(f"""
              <div class=
-             "subtitle" style="text-align: center;">Senior Data Scientist and GenAI Engineer</div>""",
+             "subtitle" style="text-align: center;">Data Scientist and GenAI Developer</div>""",
               unsafe_allow_html=True)
 # Add Social Icons
     social_icons_data = {
@@ -84,16 +85,16 @@ def web_portfolio():
     st.subheader("About Me")
 
     st.markdown("""
-    - 🧑‍💻 I am a **Senior Data Scientist and Gen AI Engineer** at [IBM](https://www.ibm.com/), 
+    - 🧑‍💻 I am a **Data Scientist and Gen AI developer** at [Digna](https://www.ibm.com/), 
     where I am currently working on a healthcare project for [Elevance Healthcare](https://www.elevancehealth.com/).
-    - 🚀 Previously, I served as an Application Development Manager at [MMC](https://www.mmc.com/).
+    - 🚀 Previously, I served as an Application Developer at [Digna AS](https://www.Digna.no/).
     - ❤️ I am passionate about *Machine Learning/Deep Learning, MLOps, Data Science, Software Engineering, 
     Computer Vision, Data Analytics, Data Engineering, Automation*, and more!
     - 🤖 Additionally, I am a Senior Instructor at [upGrad](https://www.upgrad.com/), where I offer bootcamp sessions 
     on topics such as Data Science, Machine Learning, Natural Language Processing, Automation, and more.
-    - 🏂 In my free time, I enjoy practicing sports such as Cricket and Cycling.
-    - 🪧 You can reach me at myprogrammingisfun@gmail.com.
-    - 🏠 Based in India.
+    - 🏂 In my free time, I enjoy practising sports such as weight lifting and chalistenics.
+    - 🪧 You can reach me at said@diga.no.
+    - 🏠 Based in Norway.
     """)
 
     st.write("##")
