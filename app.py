@@ -61,11 +61,9 @@ def web_portfolio():
               unsafe_allow_html=True)
 # Add Social Icons
     social_icons_data = {
-    "Kaggle": ["https://www.kaggle.com/abhisheak", "https://www.kaggle.com/static/images/site-logo.svg"],
-    "LinkedIn": ["https://www.linkedin.com/in/abhisheaksaraswat", "https://cdn-icons-png.flaticon.com/128/3536/3536505.png"],
-    "GitHub": ["https://github.com/abhisheaksaraswat", "https://cdn-icons-png.flaticon.com/128/5968/5968866.png"],
-    "YouTube": ["https://www.youtube.com/@programmingisfunn", "https://cdn-icons-png.flaticon.com/128/1384/1384060.png"],
-    "Medium": ["https://medium.com/@programmingisfun", "https://cdn-icons-png.flaticon.com/128/5968/5968906.png"]
+    "Kaggle": ["https://www.kaggle.com/saidhem", "https://www.kaggle.com/static/images/site-logo.svg"],
+    "LinkedIn": ["https://www.linkedin.com/in/said-h-1956b0161/", "https://cdn-icons-png.flaticon.com/128/3536/3536505.png"],
+    "GitHub": ["https://github.com/shirdarec", "https://cdn-icons-png.flaticon.com/128/5968/5968866.png"],
     }
 
     social_icons_html = [
