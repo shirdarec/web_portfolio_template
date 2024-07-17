@@ -13,7 +13,7 @@ def web_portfolio():
     st.markdown('<style>div.block-container{padding-top:3rem;}</style>',unsafe_allow_html=True)
 
     # Get Profile Image
-    with open("pic.jpg", "rb") as img_file:
+    with open("pic.png", "rb") as img_file:
         img = "data:image/png;base64," + b64encode(img_file.read()).decode()
     
     # Reading Profile
